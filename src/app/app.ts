@@ -10,7 +10,8 @@ import {bootstrap, Component} from 'angular2/angular2';
         </div>
         <div class="row hgt50 bg-police">
             <div class="ten columns offset-by-one column">
-                <h2>1st prototype in Angular 2</h2>
+                <h2>first prototype in Angular 2</h2>
+                <button>Start</button>
             </div>
         </div>
     </div>

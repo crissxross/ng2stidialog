@@ -14,7 +14,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         angular2_1.Component({
             selector: 'app',
-            template: "\n    <div class=\"container hgt100 bg-home\">\n        <div class=\"row hgt50 \">\n            <div class=\"ten columns offset-by-one column\">\n                <h1>Stitched Up Dialogue Engine</h1>\n            </div>\n        </div>\n        <div class=\"row hgt50 bg-police \">\n            <div class=\"ten columns offset-by-one column\">\n                <h2>1st prototype in Angular 2</h2>\n            </div>\n        </div>\n    </div>\n    "
+            template: "\n    <div class=\"container hgt100 bg-home\">\n        <div class=\"row hgt50\">\n            <div class=\"ten columns offset-by-one column\">\n                <h1>Stitched Up Dialogue Engine</h1>\n            </div>\n        </div>\n        <div class=\"row hgt50 bg-police\">\n            <div class=\"ten columns offset-by-one column\">\n                <h2>first prototype in Angular 2</h2>\n                <button>Start</button>\n            </div>\n        </div>\n    </div>\n    "
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
