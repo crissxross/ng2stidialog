@@ -13,7 +13,7 @@ import {Router} from 'angular2/router';
         </div>
         <div class="row hgt50 bg-police">
             <div class="ten columns offset-by-one column">
-                <h2>Joel/Sarah go here</h2>
+                <h2>Joel/Sarah will speak & think here</h2>
             </div>
         </div>
     </div>

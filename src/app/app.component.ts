@@ -1,5 +1,5 @@
-import {bootstrap, Component, provide} from 'angular2/angular2';
-import {APP_BASE_HREF, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, RouteConfig} from 'angular2/router';
+import {Component} from 'angular2/angular2';
+import {ROUTER_DIRECTIVES, RouteConfig} from 'angular2/router';
 
 // components
 import {HomeComponent} from "./HomeComponent";
@@ -27,7 +27,3 @@ import {SceneComponent} from "./SceneComponent";
 export class AppComponent {
     public title = 'Stitched Up'
 }
-bootstrap(AppComponent, [
-    ROUTER_PROVIDERS,
-    provide(APP_BASE_HREF, {useValue: '/src/app'})
-]);

@@ -32,8 +32,4 @@ var AppComponent = (function () {
     return AppComponent;
 })();
 exports.AppComponent = AppComponent;
-angular2_1.bootstrap(AppComponent, [
-    router_1.ROUTER_PROVIDERS,
-    angular2_1.provide(router_1.APP_BASE_HREF, { useValue: '/src/app' })
-]);
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=app.component.js.map
