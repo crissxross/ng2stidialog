@@ -1,21 +1,33 @@
-import {bootstrap, Component} from 'angular2/angular2';
+import {bootstrap, Component, provide} from 'angular2/angular2';
+import {APP_BASE_HREF, ROUTER_DIRECTIVES, ROUTER_PROVIDERS, RouteConfig} from 'angular2/router';
+
+// components
+import {HomeComponent} from "./HomeComponent";
+import {SceneComponent} from "./SceneComponent";
+
 @Component({
     selector: 'app',
+    directives: [ROUTER_DIRECTIVES],
     template: `
-    <div class="container hgt100 bg-home">
-        <div class="row hgt50">
-            <div class="ten columns offset-by-one column">
-                <h1>Stitched Up Dialogue Engine</h1>
-            </div>
-        </div>
-        <div class="row hgt50 bg-police">
-            <div class="ten columns offset-by-one column">
-                <h2>first prototype in Angular 2</h2>
-                <button>Start</button>
-            </div>
-        </div>
+    <div>
+      <a class="button button-primary" [router-link]="['Home']">{{title}}</a>
+      <a class="button button-primary" [router-link]="['Scene']">Scene</a>
+      <strong>{{title}}</strong>
+      <router-outlet></router-outlet>
     </div>
     `
 })
-class AppComponent { }
-bootstrap(AppComponent);
+
+    @RouteConfig([
+    { path: '/app', redirectTo: ['Home']},
+    { path: '/home', name: 'Home', component: HomeComponent },
+    { path: '/scene', name: 'Scene', component: SceneComponent }
+])
+
+export class AppComponent {
+    public title = 'Stitched Up'
+}
+bootstrap(AppComponent, [
+    ROUTER_PROVIDERS,
+    provide(APP_BASE_HREF, {useValue: '/src/app'})
+]);

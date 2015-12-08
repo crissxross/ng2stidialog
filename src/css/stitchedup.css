@@ -1,4 +1,7 @@
 /* Temporary CSS copied from ionic 1 app - stit2ionapp */
+body {
+  background-color: #2B2D25;
+}
 
 /* STITCHED UP colours
 $han1-base-color: hsla(355, 100%, 40%, 1); = #CC0011 assertive
@@ -7,7 +10,6 @@ $jo1-base-color: hsla(56, 100%, 40%, 1); =  #CCBE00 calm
 $jo2-base-color: hsla(296, 100%, 30%, 1); = #8F0099 royal
 Sarah1 = #0073FF balanced
 Sarah2 = #FFAA00 energized
-NOTE: to get this sass to compile must run: sudo ionic serve
 */
 .bg-han {
   background-color: #00250c;
