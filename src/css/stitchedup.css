@@ -11,6 +11,14 @@ $jo2-base-color: hsla(296, 100%, 30%, 1); = #8F0099 royal
 Sarah1 = #0073FF balanced
 Sarah2 = #FFAA00 energized
 */
+.bg-han-light {
+  background-color: #71997C;
+  position: relative; }
+
+.bg-joel-light {
+  background-color: #A29B61;
+  position: relative; }
+
 .bg-han {
   background-color: #00250c;
   position: relative; }
@@ -67,11 +75,14 @@ Sarah2 = #FFAA00 energized
 .border-other {
   border: 1px solid #7d7d7d; }
 
-.hgt50 {
-  height: 50%; }
-
 .hgt100 {
   height: 100%; }
+
+.hgt90 {
+  height: 90%; }
+
+.hgt50 {
+  height: 50%; }
 
 .hgt33 {
   height: 33.3333%; }
@@ -81,6 +92,13 @@ Sarah2 = #FFAA00 energized
 
 .hgt20 {
   height: 20%; }
+
+.hgt10 {
+  height: 10%; }
+
+/* nav height matches buttons + their margin */
+.nav {
+  height: 48px; }
 
 .top25 {
   position: absolute;

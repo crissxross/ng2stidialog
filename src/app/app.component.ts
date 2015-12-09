@@ -9,11 +9,12 @@ import {SceneComponent} from "./SceneComponent";
     selector: 'app',
     directives: [ROUTER_DIRECTIVES],
     template: `
-    <div>
-      <a class="button button-primary" [router-link]="['Home']">{{title}}</a>
-      <a class="button button-primary" [router-link]="['Scene']">Scene</a>
-      <strong>{{title}}</strong>
-      <router-outlet></router-outlet>
+    <div class="container hgt100">
+        <div class="row nav">
+            <a class="button button-primary" [router-link]="['Home']">{{title}}</a>
+            <a class="button button-primary" [router-link]="['Scene']">Scene</a>
+        </div>
+            <router-outlet></router-outlet>
     </div>
     `
 })

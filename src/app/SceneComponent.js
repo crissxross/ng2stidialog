@@ -14,7 +14,7 @@ var SceneComponent = (function () {
     SceneComponent = __decorate([
         angular2_1.Component({
             selector: 'scene',
-            template: "\n    <div class=\"container hgt100 bg-home\">\n        <div class=\"row hgt50\">\n            <div class=\"ten columns offset-by-one column\">\n                <h1>Mock Scene</h1>\n\t\t\t\t<h2>Hannah speaks here</h2>\n            </div>\n        </div>\n        <div class=\"row hgt50 bg-police\">\n            <div class=\"ten columns offset-by-one column\">\n                <h2>Joel/Sarah will speak & think here</h2>\n            </div>\n        </div>\n    </div>\n    "
+            template: "\n    <div class=\"hgt90\">\n         <div class=\"row hgt50 bg-han-light\">\n            <div class=\"ten columns offset-by-one column\">\n                <h1>Mock Scene</h1>\n\t\t\t\t<h2>Hannah speaks here</h2>\n            </div>\n        </div>\n        <div class=\"row hgt50 bg-joel-light\">\n            <div class=\"ten columns offset-by-one column\">\n                <h2>Joel/Sarah will speak & think here</h2>\n            </div>\n        </div>\n    </div>\n    "
         }), 
         __metadata('design:paramtypes', [])
     ], SceneComponent);

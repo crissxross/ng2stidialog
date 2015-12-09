@@ -3,9 +3,9 @@ import {Router} from 'angular2/router';
 
 @Component({
 	selector: 'home',
-	template: `
-    <div class="container hgt100 bg-home">
-        <div class="row hgt50">
+    template: `
+    <div class="hgt90">
+         <div class="row hgt50 bg-home">
             <div class="ten columns offset-by-one column">
                 <h1>Stitched Up Prototype Dialogue Engine</h1>
             </div>

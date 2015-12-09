@@ -20,7 +20,7 @@ var AppComponent = (function () {
         angular2_1.Component({
             selector: 'app',
             directives: [router_1.ROUTER_DIRECTIVES],
-            template: "\n    <div>\n      <a class=\"button button-primary\" [router-link]=\"['Home']\">{{title}}</a>\n      <a class=\"button button-primary\" [router-link]=\"['Scene']\">Scene</a>\n      <strong>{{title}}</strong>\n      <router-outlet></router-outlet>\n    </div>\n    "
+            template: "\n    <div class=\"container hgt100\">\n        <div class=\"row nav\">\n            <a class=\"button button-primary\" [router-link]=\"['Home']\">{{title}}</a>\n            <a class=\"button button-primary\" [router-link]=\"['Scene']\">Scene</a>\n        </div>\n            <router-outlet></router-outlet>\n    </div>\n    "
         }),
         router_1.RouteConfig([
             { path: '/app', redirectTo: ['Home'] },
