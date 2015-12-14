@@ -1,7 +1,7 @@
-#Stitched Up Dialogue Engine Prototype
-##1st Prototype in Angular 2
+#Stitched Up Dialogue Engine test
+##1st test in Angular 2
 
-This is *very* experimental at the moment!
+This is just a test at the moment!
 
 ###Notes:
 

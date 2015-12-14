@@ -12,7 +12,7 @@ import {Router} from 'angular2/router';
         </div>
         <div class="row hgt50 bg-police">
             <div class="ten columns offset-by-one column">
-                <h2>My first prototype in Angular 2</h2>
+                <h2>My first test in Angular 2</h2>
             </div>
         </div>
     </div>
