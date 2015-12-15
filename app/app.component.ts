@@ -1,9 +1,9 @@
-import {Component} from 'angular2/angular2';
+import {Component} from 'angular2/core';
 import {ROUTER_DIRECTIVES, RouteConfig} from 'angular2/router';
 
 // components
-import {HomeComponent} from "./HomeComponent";
-import {SceneComponent} from "./SceneComponent";
+import {HomeComponent} from "./home.component";
+import {SceneComponent} from "./scene.component";
 
 @Component({
     selector: 'app',
@@ -11,8 +11,8 @@ import {SceneComponent} from "./SceneComponent";
     template: `
     <div class="container hgt100">
         <div class="row nav">
-            <a class="button button-primary" [router-link]="['Home']">{{title}}</a>
-            <a class="button button-primary" [router-link]="['Scene']">Scene</a>
+            <a class="button button-primary" [routerLink]="['Home']">{{title}}</a>
+            <a class="button button-primary" [routerLink]="['Scene']">Scene</a>
         </div>
             <router-outlet></router-outlet>
     </div>
@@ -20,7 +20,7 @@ import {SceneComponent} from "./SceneComponent";
 })
 
     @RouteConfig([
-    { path: '/app', redirectTo: ['Home']},
+    { path: '/', redirectTo: ['Home']},
     { path: '/home', name: 'Home', component: HomeComponent },
     { path: '/scene', name: 'Scene', component: SceneComponent }
 ])
