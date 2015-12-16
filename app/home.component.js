@@ -22,7 +22,7 @@ System.register(['angular2/core'], function(exports_1) {
                 HomeComponent = __decorate([
                     core_1.Component({
                         selector: 'home',
-                        template: "\n    <div class=\"hgt90\">\n         <div class=\"row hgt50 bg-home\">\n            <div class=\"ten columns offset-by-one column\">\n                <h1>Stitched Up Prototype Dialogue Engine</h1>\n            </div>\n        </div>\n        <div class=\"row hgt50 bg-police\">\n            <div class=\"ten columns offset-by-one column\">\n                <h2>My first test in Angular 2</h2>\n            </div>\n        </div>\n    </div>\n    "
+                        templateUrl: 'app/home.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], HomeComponent);

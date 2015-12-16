@@ -36,8 +36,8 @@ System.register(['angular2/core', 'angular2/router', "./home.component", "./scen
                         template: "\n    <div class=\"container hgt100\">\n        <div class=\"row nav\">\n            <a class=\"button button-primary\" [routerLink]=\"['Home']\">{{title}}</a>\n            <a class=\"button button-primary\" [routerLink]=\"['Scene']\">Scene</a>\n        </div>\n            <router-outlet></router-outlet>\n    </div>\n    "
                     }),
                     router_1.RouteConfig([
-                        { path: '/', redirectTo: ['Home'] },
-                        { path: '/home', name: 'Home', component: home_component_1.HomeComponent },
+                        // { path: '/', redirectTo: ['Home']},
+                        { path: '/home', name: 'Home', component: home_component_1.HomeComponent, useAsDefault: true },
                         { path: '/scene', name: 'Scene', component: scene_component_1.SceneComponent }
                     ]), 
                     __metadata('design:paramtypes', [])

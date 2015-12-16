@@ -22,7 +22,7 @@ System.register(['angular2/core'], function(exports_1) {
                 SceneComponent = __decorate([
                     core_1.Component({
                         selector: 'scene',
-                        template: "\n    <div class=\"hgt90\">\n         <div class=\"row hgt50 bg-han-light\">\n            <div class=\"ten columns offset-by-one column\">\n                <h1>Mock Scene</h1>\n\t\t\t\t<h2>Hannah speaks here</h2>\n            </div>\n        </div>\n        <div class=\"row hgt50 bg-joel-light\">\n            <div class=\"ten columns offset-by-one column\">\n                <h2>Joel/Sarah will speak & think here</h2>\n            </div>\n        </div>\n    </div>\n    "
+                        templateUrl: 'app/scene.component.html'
                     }), 
                     __metadata('design:paramtypes', [])
                 ], SceneComponent);

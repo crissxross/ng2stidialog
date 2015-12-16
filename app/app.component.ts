@@ -20,8 +20,8 @@ import {SceneComponent} from "./scene.component";
 })
 
     @RouteConfig([
-    { path: '/', redirectTo: ['Home']},
-    { path: '/home', name: 'Home', component: HomeComponent },
+    // { path: '/', redirectTo: ['Home']},
+    { path: '/home', name: 'Home', component: HomeComponent, useAsDefault: true },
     { path: '/scene', name: 'Scene', component: SceneComponent }
 ])
 
