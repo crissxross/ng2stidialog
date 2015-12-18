@@ -26,14 +26,19 @@
   <!-- Configure SystemJS -->
   <script>
     System.config({
-        packages: {'app': {defaultExtension: 'js'}}
+        packages: {
+          app: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
       });
       System.import('app/boot');
   </script>
 </head>
 
 <body>
-  <app>loading...</app>
+  <app>Loading...</app>
 </body>
 
 </html>
