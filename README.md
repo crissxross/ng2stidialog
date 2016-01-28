@@ -1,6 +1,7 @@
-#Stitched Up Dialogue Engine prototype
+#Temp Stitched Up Dialogue Engine prototype
 ##1st test prototype in Angular 2 beta.0
 
+CEASED work on this repo.
 This is just a test at the moment!
 
 ###Notes:
